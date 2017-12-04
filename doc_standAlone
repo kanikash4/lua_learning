@@ -1,0 +1,18 @@
+
+You can run Lua as a stand-alone interpreter which means you can write scripts that acts like stand-alone executables.
+
+1. Create a file called luaStandAlone without the .lua extension. In the file add:
+
+#!/usr/bin/env lua
+print ("This script can be executed standalone!")
+
+The first line tells that this is a script file and the script uses lua.
+The second line prints out the text “This script can be executed standalone!” 
+
+2. Before the script can be run, it needs to be given execute permission. To do this run the “chmod” command in the directory with the file in it:
+
+                  chmod +x luaStandAlone
+
+This tells Linux that this script can be executed, to run it just type:
+
+3. ./luaStandAlone
