@@ -1,2 +1,6 @@
 #!/usr/bin/env lua
 print ("This script can be executed standalone!")
+
+print("Enter a number")
+a = io.read("*number") -- read a number
+print("Entered number", a)
